@@ -1,4 +1,4 @@
-# Dummy Plugin
+# Dummy Plugin (dev)
 
 ![Stable 0.1.2](https://badgen.net/badge/Stable/0.1.2/00aa00)
 ![WordPress 4.5 - 6.2.2](https://badgen.net/badge/WordPress/4.5%20-%206.2.2/3858e9)
