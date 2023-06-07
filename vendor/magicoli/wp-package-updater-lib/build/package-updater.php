@@ -14,6 +14,7 @@ namespace MagicOli\WpPackageUpdaterLib;
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
+error_log('Been here ' . __FILE__);
 
 // Enable plugin updates only if $wppul_server variable is set
 if ( isset( $wppul_server ) ) {

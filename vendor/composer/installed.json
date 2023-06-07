@@ -2,29 +2,30 @@
     "packages": [
         {
             "name": "magicoli/wp-package-updater-lib",
-            "version": "v0.1.4",
-            "version_normalized": "0.1.4.0",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magicoli/wp-package-updater-lib.git",
-                "reference": "9aa30097473986dbbebae64ad86aae521c065973"
+                "reference": "5a0f7bda00713ba7eb8ee75570699459d6ec8bfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/9aa30097473986dbbebae64ad86aae521c065973",
-                "reference": "9aa30097473986dbbebae64ad86aae521c065973",
+                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/5a0f7bda00713ba7eb8ee75570699459d6ec8bfd",
+                "reference": "5a0f7bda00713ba7eb8ee75570699459d6ec8bfd",
                 "shasum": ""
             },
             "require-dev": {
                 "froger-me/wp-plugin-update-server": "*"
             },
-            "time": "2023-06-07T18:07:42+00:00",
+            "time": "2023-06-07T22:52:15+00:00",
+            "default-branch": true,
             "type": "library",
             "installation-source": "dist",
             "autoload": {
-                "psr-4": {
-                    "MagicOli\\WpPackageUpdaterLib\\": "build"
-                }
+                "files": [
+                    "build/package-updater.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -38,7 +39,7 @@
             "description": "Composer package for wp-package-updater library.",
             "support": {
                 "issues": "https://github.com/magicoli/wp-package-updater-lib/issues",
-                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v0.1.4"
+                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/master"
             },
             "install-path": "../magicoli/wp-package-updater-lib"
         }

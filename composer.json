@@ -14,6 +14,6 @@
         }
     ],
     "require": {
-        "magicoli/wp-package-updater-lib": "^0.1.4"
+        "magicoli/wp-package-updater-lib": "dev-master"
     }
 }

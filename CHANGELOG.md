@@ -1,8 +1,6 @@
 ## Changelog
 
 ### 0.1.3
-
-### 0.1.3
 - added a subtle change to trigger an update
 
 ### 0.1.2
