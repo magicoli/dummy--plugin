@@ -13,5 +13,7 @@
             "name": "Magiiic"
         }
     ],
-    "require": {}
+    "require": {
+        "magicoli/wp-package-updater-lib": "^0.1.4"
+    }
 }

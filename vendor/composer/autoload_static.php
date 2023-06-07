@@ -10,6 +10,7 @@ class ComposerStaticInitd15d3bb884b910bc81d40404e03d75e8
         'M' => 
         array (
             'Magicoli\\DummyPlugin\\' => 21,
+            'MagicOli\\WpPackageUpdaterLib\\' => 29,
         ),
     );
 
@@ -17,6 +18,10 @@ class ComposerStaticInitd15d3bb884b910bc81d40404e03d75e8
         'Magicoli\\DummyPlugin\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'MagicOli\\WpPackageUpdaterLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magicoli/wp-package-updater-lib/build',
         ),
     );
 

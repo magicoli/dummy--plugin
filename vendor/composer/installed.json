@@ -1,0 +1,48 @@
+{
+    "packages": [
+        {
+            "name": "magicoli/wp-package-updater-lib",
+            "version": "v0.1.4",
+            "version_normalized": "0.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magicoli/wp-package-updater-lib.git",
+                "reference": "9aa30097473986dbbebae64ad86aae521c065973"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/9aa30097473986dbbebae64ad86aae521c065973",
+                "reference": "9aa30097473986dbbebae64ad86aae521c065973",
+                "shasum": ""
+            },
+            "require-dev": {
+                "froger-me/wp-plugin-update-server": "*"
+            },
+            "time": "2023-06-07T18:07:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MagicOli\\WpPackageUpdaterLib\\": "build"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Magiiic"
+                }
+            ],
+            "description": "Composer package for wp-package-updater library.",
+            "support": {
+                "issues": "https://github.com/magicoli/wp-package-updater-lib/issues",
+                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v0.1.4"
+            },
+            "install-path": "../magicoli/wp-package-updater-lib"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -7,9 +7,12 @@
  * Author URI:      https://magiiic.com
  * Text Domain:     dummy-plugin
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * @package         Dummy_Plugin
  */
 
 // Your code starts here.
+$wppul_server = 'https://magiiic.com';
+$wppul_licence_required = false; // optional
+require_once 'vendor/autoload.php';

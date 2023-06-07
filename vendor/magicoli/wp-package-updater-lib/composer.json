@@ -1,0 +1,44 @@
+{
+  "name": "magicoli/wp-package-updater-lib",
+  "description": "Composer package for wp-package-updater library.",
+  "type": "library",
+  "license": "AGPL-3.0-or-later",
+  "stable": "0.1.0",
+  "autoload": {
+    "psr-4": {
+      "MagicOli\\WpPackageUpdaterLib\\": "build"
+    }
+  },
+  "authors": [
+    {
+      "name": "Magiiic"
+    }
+  ],
+  "warning": "Warning message",
+  "info": "Info message",
+  "repositories":[
+    {
+      "type": "package",
+      "package": {
+        "name": "froger-me/wp-plugin-update-server",
+        "version": "1.4.15",
+        "source": {
+          "url": "https://github.com/froger-me/wp-plugin-update-server",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "scripts": {
+    "post-package-install": "MagicOli\\WpPackageUpdaterLib\\ScriptHandler::showInstructions",
+    "post-package-update": "MagicOli\\WpPackageUpdaterLib\\ScriptHandler::showInstructions",
+    "post-update-cmd": [
+      "rsync --delete -Wavz vendor/froger-me/wp-plugin-update-server/wp-plugin-update-server/integration-examples/dummy-plugin/lib/plugin-update-checker/ build/plugin-update-checker/",
+      "rsync --delete -Wavz vendor/froger-me/wp-plugin-update-server/wp-plugin-update-server/integration-examples/dummy-plugin/lib/wp-package-updater/ build/wp-package-updater/"
+    ]
+  },
+  "require-dev": {
+    "froger-me/wp-plugin-update-server": "*"
+  }
+}

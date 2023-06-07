@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Magicoli\\DummyPlugin\\' => array($baseDir . '/src'),
+    'MagicOli\\WpPackageUpdaterLib\\' => array($vendorDir . '/magicoli/wp-package-updater-lib/build'),
 );
