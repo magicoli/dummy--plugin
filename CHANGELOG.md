@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.1.7
+- add vendor to .distignore
+- updated wp-package-updater to 0.1.6
+
 ### 0.1.6
 - use lib/ include instead of autoload
 
