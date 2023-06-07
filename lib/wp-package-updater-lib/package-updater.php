@@ -9,15 +9,20 @@
  * Version: 0.1.4
  */
 
-namespace MagicOli\WpPackageUpdaterLib;
-
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-error_log('Been here ' . __FILE__);
+
 
 // Enable plugin updates only if $wppul_server variable is set
 if ( isset( $wppul_server ) ) {
+	error_log(
+		"Been here"
+		. "\nnamespacec " . __NAMESPACE__
+		. "\nfile " . __FILE__
+		. "\nserver " . $wppul_server
+		. "\nwppul_licence_required " . ( $wppul_licence_required ? 'yes' : 'no')
+	);
 
     // Include the library file
     require_once plugin_dir_path( __FILE__ ) . 'wp-package-updater/class-wp-package-updater.php';

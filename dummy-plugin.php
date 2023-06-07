@@ -15,7 +15,7 @@
 // Your code starts here.
 $wppul_server = 'https://magiiic.com';
 $wppul_licence_required = false; // optional
-require_once 'vendor/autoload.php';
+require_once 'lib/wp-package-updater-lib/package-updater.php';
 
 if(!defined('DUMMY_VERSION')) {
   define('DUMMY_VERSION', '0.1.5');
