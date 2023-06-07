@@ -1,9 +1,12 @@
 ## Changelog
 
-### Unreleased (0.1.3-dev.9)
-- removed vendor/ from distignore
+### 0.1.3
+
+### 0.1.3
+- added a subtle change to trigger an update
 
 ### 0.1.2
+- removed vendor/ from distignore
 
 ### 0.1.2
 - removed vendor/ from distignore

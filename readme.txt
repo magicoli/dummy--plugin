@@ -1,11 +1,11 @@
-=== Dummy Plugin (dev) ===
+=== Dummy Plugin ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://example.com/
 Tags: comments, spam
 Requires at least: 4.5
 Tested up to: 6.2.2
 Requires PHP: 5.6
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,10 +68,13 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= Unreleased (0.1.3-dev.9) =
-* removed vendor/ from distignore
+= 0.1.3 =
+
+= 0.1.3 =
+* added a subtle change to trigger an update
 
 = 0.1.2 =
+* removed vendor/ from distignore
 
 = 0.1.2 =
 * removed vendor/ from distignore
