@@ -1,0 +1,17 @@
+{
+    "name": "magicoli/dummy-plugin",
+    "description": "Dummy plugin to test package updater",
+    "type": "wordpress-plugin",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Magicoli\\DummyPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Magiiic"
+        }
+    ],
+    "require": {}
+}
