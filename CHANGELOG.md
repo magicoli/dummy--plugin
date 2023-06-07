@@ -1,5 +1,7 @@
 ## Changelog
 
+### 0.1.5
+
 ### 0.1.4
 - autoload seems to autoload now
 

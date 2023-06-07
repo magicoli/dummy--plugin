@@ -7,7 +7,7 @@
  * Author URI:      https://magiiic.com
  * Text Domain:     dummy-plugin
  * Domain Path:     /languages
- * Version:         0.1.4
+ * Version:         0.1.5
  *
  * @package         Dummy_Plugin
  */
@@ -18,5 +18,5 @@ $wppul_licence_required = false; // optional
 require_once 'vendor/autoload.php';
 
 if(!defined('DUMMY_VERSION')) {
-  define('DUMMY_VERSION', '0.1.4');
+  define('DUMMY_VERSION', '0.1.5');
 }
