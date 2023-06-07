@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Dummy Plugin
  * Plugin URI:      https://magiiic.com/wordpress/plugins/
- * Description:     Dummy plugin to test package updater
+ * Description:     Dummy plugin to test package updater. This plugin does nothing except self-updating.
  * Author:          Magiiic
  * Author URI:      https://magiiic.com
  * Text Domain:     dummy-plugin
