@@ -7,14 +7,14 @@
  * Author URI:      https://magiiic.com
  * Text Domain:     dummy-plugin
  * Domain Path:     /languages
- * Version:         0.1.7
+ * Version:         0.1.8
  *
  * @package         Dummy_Plugin
  */
 
 // Your code starts here.
 if(!defined('DUMMY_VERSION')) {
-  define('DUMMY_VERSION', '0.1.7');
+  define('DUMMY_VERSION', '0.1.8');
 }
 
 $wppul_server = 'https://magiiic.com';

@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.1.8
+- updated wp-package-updater to 0.1.7
+- fix wrong plugin file passed to WP_Package_Updater class
+
 ### 0.1.7
 - add vendor to .distignore
 - updated wp-package-updater to 0.1.6
