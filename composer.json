@@ -15,5 +15,10 @@
     ],
     "require": {
         "magicoli/wp-package-updater-lib": "dev-master"
+    },
+    "scripts": {
+      "post-update-cmd": [
+        "php vendor/magicoli/wp-package-updater-lib/install.php"
+      ]
     }
 }
