@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magicoli/wp-package-updater-lib.git",
-                "reference": "d464b7d7ee475334e3bb59c37f57e50719903cf5"
+                "reference": "e95ea71e8a10b859856a1e7ec43029b17047cb31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/d464b7d7ee475334e3bb59c37f57e50719903cf5",
-                "reference": "d464b7d7ee475334e3bb59c37f57e50719903cf5",
+                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/e95ea71e8a10b859856a1e7ec43029b17047cb31",
+                "reference": "e95ea71e8a10b859856a1e7ec43029b17047cb31",
                 "shasum": ""
             },
             "require-dev": {
@@ -37,9 +37,9 @@
             "description": "Composer package for wp-package-updater library.",
             "support": {
                 "issues": "https://github.com/magicoli/wp-package-updater-lib/issues",
-                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v0.1.6"
+                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v0.1.7"
             },
-            "time": "2023-06-07T23:38:59+00:00"
+            "time": "2023-06-08T00:11:30+00:00"
         }
     ],
     "packages-dev": [],
