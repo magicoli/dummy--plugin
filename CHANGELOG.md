@@ -1,5 +1,8 @@
 ## Changelog
 
+### 0.1.9
+- updated wp-package-updater to 0.1.9
+
 ### 0.1.8
 - updated wp-package-updater to 0.1.7
 - fix wrong plugin file passed to WP_Package_Updater class
